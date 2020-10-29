@@ -1,0 +1,10 @@
+{
+  "name": "undercompete-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sebastian Alsina <alsinas@me.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
