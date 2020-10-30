@@ -1,10 +1,28 @@
 {
   "name": "undercompete-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "author": "Sebastian Alsina <alsinas@me.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
-  }
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TejasBaid/undercompete-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TejasBaid/undercompete-backend/issues"
+  },
+  "homepage": "https://github.com/TejasBaid/undercompete-backend#readme",
+  "description": ""
 }
